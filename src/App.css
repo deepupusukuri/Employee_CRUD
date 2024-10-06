@@ -1,4 +1,4 @@
-/* Background Styling */
+
 body {
   margin: 0;
   padding: 0;
@@ -11,10 +11,9 @@ body {
   color: white;
 }
 
-/* Center Content */
 .App {
   text-align: center;
-  background-color: rgba(255, 255, 255, 0.1); /* Transparent card-like effect */
+  background-color: rgba(255, 255, 255, 0.1);
   padding: 30px;
   border-radius: 15px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
@@ -25,7 +24,6 @@ body {
   animation: fadeIn 1.5s ease-in-out;
 }
 
-/* Animation for smooth page load */
 @keyframes fadeIn {
   from {
     opacity: 0;
@@ -37,7 +35,7 @@ body {
   }
 }
 
-/* Input Styling */
+
 input {
   width: calc(33% - 10px);
   padding: 10px;
@@ -51,11 +49,10 @@ input {
 
 input:focus {
   outline: none;
-  transform: scale(1.05); /* Scale on focus */
+  transform: scale(1.05);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
 }
 
-/* Button Styling */
 button {
   background-color: #4caf50;
   color: white;
@@ -70,14 +67,14 @@ button {
 
 button:hover {
   background-color: #45a049;
-  transform: scale(1.05); /* Slight hover effect */
+  transform: scale(1.05); 
 }
 
 button:active {
-  transform: scale(0.95); /* Click effect */
+  transform: scale(0.95); 
 }
 
-/* Table Styling */
+
 table {
   width: 100%;
   border-collapse: collapse;
@@ -100,7 +97,7 @@ tr:hover {
   transition: background-color 0.3s ease;
 }
 
-/* Responsive Design */
+
 @media (max-width: 768px) {
   .App {
     width: 90%;
